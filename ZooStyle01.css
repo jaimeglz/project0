@@ -22,7 +22,7 @@
 		h2 {
 			font-size: 2.0em;
 			text-align: center;
-			margin-top: 0.5em;
+			margin-top: 0.0em;
   			margin-bottom: 0.5em
 		}
 		h3 {
@@ -41,14 +41,27 @@
 		h5 {
 			font-size: 1.3em;
 			text-align: center;
+			margin-top: 1.2em;
+  			margin-bottom: 0em
+		}
+		h6 {
+			font-size: 1.0em;
+			text-align: left;
+			margin-left: 1.5em;
 			margin-top: 0.4em;
   			margin-bottom: 0em
 		}				
 		img {
 			border: 1px solid #000;
-  			border-radius: 4px;
   			padding: 0.1em;
-  			width: 27.0em
+  			width: 37.0em
+		}
+		p {
+  			display: block;
+  			margin-top: 1em;
+  			margin-bottom: 1em;
+  			margin-left: 6.5em;
+  			margin-right: 0;
 		}
 		#lrge {
 			font-size: 1.5em
@@ -63,7 +76,7 @@
 			text-align: left;		
 			font-size: 0.8em;
 			margin-top: 1.0em;
-			margin-left: 3.0em;
+			margin-left: 30.0em;
 			margin-right: 1.0em;
   			margin-bottom: 1.1em
 		}
@@ -93,6 +106,8 @@
             	font-size: 1.0em;
                 border: 0.1emx solid black;
                 border-collapse: collapse;
+                margin-top: 1.0em;
+                margin-bottom: 1.0em;
                 width: 85%;
             }
 
@@ -105,18 +120,18 @@
             th {
                 background-color: lightgray;
             }		  
-		aside {
+		nav {
 			display: block;
 			border-style: solid;
     		border-width: 0.1em;
+    		background-color: #f1f1f1;
 			float: left;
-			margin-top: 1em;
-			margin-right: 2em; 
-			position: relative;
-			width: 27%
+			margin-top: 1.5em;
+			margin-right: 1em; 
+			width: 23%;
 		  }
 		a {
-			font-size: 1.3em;
+			font-size: 1.0em;
 			text-decoration: none;
 			margin-left: 0.0em;
 			margin-top: 0.1em;
@@ -125,7 +140,7 @@
 		ul {
 		  	list-style-type: none;
 		  	margin-left: 0em;
-			margin-top: 1em;
+			margin-top: 0.5em;
 			margin-bottom: 0em
 			padding: 0;
 		}

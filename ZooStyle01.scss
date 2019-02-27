@@ -2,6 +2,7 @@ $fontColor: #29293d;
 $bckgrndColor: #fff3ff;
 $smllScrnBackgrnd: #e6e6ff;
 $cs50Color: #DC143C;
+$navBckgrd: #ffffff;
 
 		body {
 			font-family: Verdana, Tahoma, Arial, sans-serif;
@@ -9,12 +10,12 @@ $cs50Color: #DC143C;
 	    }
 		@media only screen and (min-width: 500px) {
 			body {
-				background-color: $bckgrndColor;
+				background-color: $bckgrndColor; /* Variable $bckgrndColor in .scss */
 			}
 		}
 		@media only screen and (max-width: 499px) {
 			body {
-				background-color:  $smllScrnBackgrnd;
+				background-color:  $smllScrnBackgrnd; /* Variable $smllScrnBackgrnd in .scss */
 			}
 		}
 			    
@@ -30,7 +31,7 @@ $cs50Color: #DC143C;
 			display: block;
 			border-style: solid;
     		border-width: 0.1em;
-    		background-color: #ffffff;
+    		background-color: $navBckgrd; /* Variable $navBckgrd in .scss */
 			float: left;
 			margin-top: 1.6em;
  			padding: 0.0em;

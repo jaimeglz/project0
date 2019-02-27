@@ -1,16 +1,16 @@
 
 		body {
 			font-family: Verdana, Tahoma, Arial, sans-serif;
-			color: #29293d;
+			color: #29293d; /* Variable $fontColor in .scss */
 	    }
 		@media only screen and (min-width: 500px) {
 			body {
-				background-color: #fff3ff;
+				background-color: #fff3ff; /* Variable $bckgrndColor in .scss */
 			}
 		}
 		@media only screen and (max-width: 499px) {
 			body {
-				background-color:  #e6e6ff;
+				background-color:  #e6e6ff; /* Variable $smllScrnBackgrnd in .scss */
 			}
 		}
 			    

@@ -1,7 +1,9 @@
+$fontColor: #29293d;
+$cs50Color: #DC143C;
 
 		body {
 			font-family: Verdana, Tahoma, Arial, sans-serif;
-			color: #29293d;
+			color: $fontColor;
 	    }
 		@media only screen and (min-width: 500px) {
 			body {
@@ -71,7 +73,7 @@
 		}
 		h3 {
 			font-size: 1.3em;
-			color: #DC143C;
+			color: $cs50Color
 			margin-top: 0.1em;
 		}
 		h4 {
@@ -113,7 +115,7 @@
 			text-align: left;		
 			font-size: 0.6em;
 			margin-top: 1.0em;
-			margin-left: 35.0em;
+			margin-left: 50.0em;
 			margin-right: 1.0em;
   			margin-bottom: 1.1em
 		}
@@ -123,12 +125,12 @@
   			margin-left: 0em;
   			margin-right: 0em;
   			margin-botton: 0em;
-		}
+				}
 			
-		.row > div {
-			padding: 1.3em;
-			background-color: #b3ffb3;
-			border: 0.2em solid black;
+			.row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
             }
             			
 		figcaption {

@@ -1,4 +1,6 @@
 $fontColor: #29293d;
+$bckgrndColor: #fff3ff;
+$smllScrnBackgrnd: #e6e6ff;
 $cs50Color: #DC143C;
 
 		body {
@@ -7,12 +9,12 @@ $cs50Color: #DC143C;
 	    }
 		@media only screen and (min-width: 500px) {
 			body {
-				background-color: #fff3ff;
+				background-color: $bckgrndColor;
 			}
 		}
 		@media only screen and (max-width: 499px) {
 			body {
-				background-color:  #e6e6ff;
+				background-color:  $smllScrnBackgrnd;
 			}
 		}
 			    

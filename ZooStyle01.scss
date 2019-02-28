@@ -3,6 +3,9 @@ $bckgrndColor: #fff3ff;
 $smllScrnBackgrnd: #e6e6ff;
 $cs50Color: #DC143C;
 $navBckgrd: #ffffff;
+$apprvdColor: #e6ffe6;
+$strtdColor: #99ff99;
+$stalldColor:  #ffb366;
 
 		body {
 			font-family: Verdana, Tahoma, Arial, sans-serif;
@@ -10,12 +13,14 @@ $navBckgrd: #ffffff;
 	    }
 		@media only screen and (min-width: 500px) {
 			body {
-				background-color: $bckgrndColor; /* Variable $bckgrndColor in .scss */
+				/* Variable $bckgrndColor in .scss */
+				background-color: $bckgrndColor; 
 			}
 		}
 		@media only screen and (max-width: 499px) {
 			body {
-				background-color:  $smllScrnBackgrnd; /* Variable $smllScrnBackgrnd in .scss */
+				/* Variable $smllScrnBackgrnd in .scss */
+				background-color:  $smllScrnBackgrnd; 
 			}
 		}
 			    
@@ -24,14 +29,21 @@ $navBckgrd: #ffffff;
 			border-style: solid;
     		border-width: 0.1em;
     		margin-bottom: 0.8em;
-			width: 99%			
+			width: 99%;
+			
+			/* h3 nested in scss*/
+			h3 {
+			color: $cs50Color;
+			margin-top: 0.2em;
+			}
 		}
 		
 		nav {
 			display: block;
 			border-style: solid;
     		border-width: 0.1em;
-    		background-color: $navBckgrd; /* Variable $navBckgrd in .scss */
+    		/* Variable $navBckgrd in .scss */
+    		background-color: $navBckgrd; 
 			float: left;
 			margin-top: 1.6em;
  			padding: 0.0em;
@@ -76,13 +88,14 @@ $navBckgrd: #ffffff;
 		}
 		h3 {
 			font-size: 1.3em;
-			color: $cs50Color
+			color: $cs50Color;
 			margin-top: 0.1em;
 		}
 		h4 {
-			font-size: 1.3em;
-			text-align: center;
-			margin-top: 0.0em;
+			font-size: 1.0em;
+			text-align: left;
+			margin-top: 3.0em;
+			margin-left: 0.5em;
   			margin-bottom: 0.1em
 		}
 		h5 {
@@ -122,6 +135,7 @@ $navBckgrd: #ffffff;
 			margin-right: 1.0em;
   			margin-bottom: 1.1em
 		}
+		
 		.alignLeft {
   			display: block;
   			text-align: left;
@@ -130,10 +144,10 @@ $navBckgrd: #ffffff;
   			margin-botton: 0em;
 				}
 			
-			.row > div {
-                padding: 20px;
-                background-color: teal;
-                border: 2px solid black;
+		.row > div {
+			padding: 10px;
+			background-color: $apprvdColor;
+			border: 2px solid black;
             }
             			
 		figcaption {
@@ -166,7 +180,30 @@ $navBckgrd: #ffffff;
             th {
                 background-color: lightgray;
             }
+		
+		%message {
+		    font-size: 0.7em;
+		    border: 0.02em solid black;
+    		padding: 0.5em;
+    		margin-top: 0.5em;
+    		margin-right: 65.0em;
+		}
+		
+		#approved {
+    		@extend %message;
+    		background-color: $apprvdColor;
+		}
 
+		#started {
+    		@extend %message;
+    		background-color: $strtdColor;
+		}
+
+		#stalled {
+    		@extend %message;
+    		background-color: $stalldColor;
+		}
+		
 		footer {
   			position: fixed;
   			left: 4em;

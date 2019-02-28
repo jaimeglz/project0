@@ -8,6 +8,6 @@ The main reason for choosing the “electronic zoo” is that – in addition to
 
 I hope the navigation section in upper-left side of each page is sufficiently intuitive: just click on the hyperlink, and the requested page section – or the web page you want to visit – will be displayed. On pages two to five (elephants, quokka, tigress...), you will find a hyperlink to “General information”, where you will find the table that is requested as part of the exercise.
 
-The stylesheet files (SCSS,and CSS) are in project0's main directory, together the HTML pages. I hope to have exceeded the minimum number of required artifacts listed in the bulleted items of the exercise requirements.
+The stylesheet files (SCSS, and CSS) are in project0's main directory, together the HTML pages. I hope to have exceeded the minimum number of required artifacts listed in the bulleted items of the exercise requirements.
  
 Finally, please be patient with me. For at least the next four weeks I have a heavy work-load, so I will be advancing slowly towards course completion.
